@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="assets/header.css">
 
-<header><nav class="navbar navbar-static-top">
+<header><nav class="navbar navbar-static-top">  
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="header navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -17,9 +17,16 @@
             Home
           {{/link-to}}
         {{/link-to}}        
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Projects</a></li>
-        <li><a href="#resume">Resume</a></li>
+        {{#link-to 'about' tagName="li"}}
+          {{#link-to 'about'}}
+            About
+          {{/link-to}}
+        {{/link-to}}
+        {{#link-to 'resume' tagName="li"}}
+          {{#link-to 'resume'}}
+          Resume
+          {{/link-to}}
+        {{/link-to}}
       </ul>
     </div><!--/.nav-collapse -->
   </div>

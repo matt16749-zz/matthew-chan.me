@@ -1,7 +1,16 @@
 body{
+  height:100%;
   box-sizing:border-box;
   background-image: url('/assets/images/sf.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.main-body{
+  padding-top: 5em;
+}
+
+.index{
+  margin-bottom: 44em;
 }
