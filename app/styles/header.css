@@ -1,0 +1,19 @@
+.header.navbar-toggle{
+  border:1px solid #FFFFFF;
+} 
+
+.header.icon-bar{
+  background-color: #FFFFFF;
+}
+
+#navbar li a{
+  color:#FFFFFF;
+}
+
+#navbar li a:hover{
+  background-color:#66898B;
+}
+
+nav{
+  background-color: #85B1B3;
+}
