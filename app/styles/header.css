@@ -10,10 +10,14 @@
   color:#FFFFFF;
 }
 
-#navbar li a:hover{
+#navbar li a:hover,#navbar li a:visited,#navbar li a:active{
   background-color:#66898B;
 }
 
 nav{
   background-color: #85B1B3;
+}
+
+.navbar{
+  margin-bottom: 0px;
 }
